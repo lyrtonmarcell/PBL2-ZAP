@@ -64,3 +64,10 @@ O relógio de Lamport se aplica em ambientes distribuídos permitindo que cada e
 
 # 2.4 Criptografia
 
+A criptografia, derivada das palavras gregas para "escrita secreta", possui uma longa história de milhares de anos, desempenhando um papel crucial em contextos militares, diplomáticos, memorativos e românticos. Antes dos computadores, as limitações incluíam a habilidade dos criptografistas em realizar transformações, frequentemente em ambientes desafiadores, como em guerras, por exemplo, tornando necessária a alteração de métodos criptográficos rapidamente, em resposta às ameaças, resultando em grande desafios.
+
+Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o modelo tradicional envolve a transformação de texto simples para texto cifrado através de uma função parametrizada pela chave. O texto cifrado é transmitido, mesmo que o intruso o escute, sem poder decifrá-lo devido à ausência da chave, porém para esse trabalho foi utilizado o modelo de chave pública, o qual foi uma inovação crucial no mundo criptográfico, no qual existem duas chaves diferentes: uma chave pública utilizada para criptografar e uma chave privada para descriptografar, permitindo comunicações seguras sem a necessidade de compartilhar a chave privada.
+
+# 2.5 Confiabilidade
+
+O ambiente da Internet é propenso a falhas, tanto em termos de mensagens quanto de processos. Adotar uma abordagem que leve em consideração o modelo de falhas da Internet é crucial para garantir a confiabilidade da comunicação, mesmo em situações adversas.
