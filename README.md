@@ -14,7 +14,7 @@ Para a construção desse sistema conceitos deveriam ser bem consolidados, torna
 
 # 2.1 Modelo Peer-to-Peer (P2P):
 
-As redes P2P surgiram em 1999, inicialmente associadas a controvérsias, como o caso do Napster, mas evoluíram para desempenhar papéis valiosos e legais. Essas redes são formadas por computadores domésticos, chamados peers. A característica fundamental é a capacidade de compartilhar recursos, onde cada computador atua alternadamente como cliente, buscando conteúdo, e como servidor, fornecendo conteúdo para outros peers. O grande atrativo das redes P2P é a ausência de uma infraestrutura centralizada, permitindo que qualquer pessoa contribua para a distribuição de conteúdo.
+As redes P2P surgiram em 1999, inicialmente associadas a controvérsias, como o caso do Napster, mas evoluíram para desempenhar papéis valiosos e legais. Essas redes são formadas por computadores domésticos, chamados peers. A característica fundamental é a capacidade de compartilhar recursos, onde cada computador atua alternadamente como cliente, buscando conteúdo, e como servidor, fornecendo conteúdo para outros peers. O grande atrativo das redes P2P é a ausência de uma infraestrutura centralizada, permitindo que qualquer pessoa contribua para a distribuição de conteúdo. A figura 1 apresenta a esquematização do modelo Peer-to-peer.
 
 ![Figura 1: Arquitetura do modelo P2P](https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/funcionamento.png)
 
@@ -71,7 +71,7 @@ O relógio de Lamport se aplica em ambientes distribuídos permitindo que cada e
 
 A criptografia, derivada das palavras gregas para "escrita secreta", possui uma longa história de milhares de anos, desempenhando um papel crucial em contextos militares, diplomáticos, memorativos e românticos. Antes dos computadores, as limitações incluíam a habilidade dos criptografistas em realizar transformações, frequentemente em ambientes desafiadores, como em guerras, por exemplo, tornando necessária a alteração de métodos criptográficos rapidamente, em resposta às ameaças, resultando em grande desafios.
 
-Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o modelo tradicional envolve a transformação de texto simples para texto cifrado através de uma função parametrizada pela chave. O texto cifrado é transmitido, mesmo que o intruso o escute, sem poder decifrá-lo devido à ausência da chave, porém para esse trabalho foi utilizado o modelo de chave pública, o qual foi uma inovação crucial no mundo criptográfico, no qual existem duas chaves diferentes: uma chave pública utilizada para criptografar e uma chave privada para descriptografar, permitindo comunicações seguras sem a necessidade de compartilhar a chave privada.
+Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o modelo tradicional envolve a transformação de texto simples para texto cifrado através de uma função parametrizada pela chave. O texto cifrado é transmitido, mesmo que o intruso o escute, sem poder decifrá-lo devido à ausência da chave, porém para esse trabalho foi utilizado o modelo de chave pública, o qual foi uma inovação crucial no mundo criptográfico, no qual existem duas chaves diferentes: uma chave pública utilizada para criptografar e uma chave privada para descriptografar, permitindo comunicações seguras sem a necessidade de compartilhar a chave privada. A figura 2 representa o esquemático do modelo criptografico de chave pública.
 
 ![Figura 2: Modelo de chave pública](https://www.universidadejava.com.br/images/2020-05-23-criptografia-assimetrica-01.png)
 
@@ -81,4 +81,8 @@ Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o mod
 
 # 2.5 Confiabilidade
 
-O ambiente da Internet é propenso a falhas, tanto em termos de mensagens quanto de processos. Adotar uma abordagem que leve em consideração o modelo de falhas da Internet é crucial para garantir a confiabilidade da comunicação, mesmo em situações adversas.
+O ambiente da Internet é propenso a falhas, tanto em termos de mensagens quanto de processos, adotar uma abordagem que leve em consideração o modelo de falhas na comunicação é crucial para garantir a confiabilidade do sistema, mesmo em situações adversas em que um dos nós, ou seja, peers apresentem falhas ou estejam indisponíveis. 
+
+A implementação de estratégias robustas para realizar o tratamento de falhas, manter a consistência dos dados e garantir a recuperação eficiente do sistema em face de perturbações é papel da confiabilidade em sistemas distribuídos P2P.
+
+# 3. Resultados e Discussões
