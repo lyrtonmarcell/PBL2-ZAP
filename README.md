@@ -16,8 +16,11 @@ Para a construção desse sistema conceitos deveriam ser bem consolidados, torna
 
 As redes P2P surgiram em 1999, inicialmente associadas a controvérsias, como o caso do Napster, mas evoluíram para desempenhar papéis valiosos e legais. Essas redes são formadas por computadores domésticos, chamados peers. A característica fundamental é a capacidade de compartilhar recursos, onde cada computador atua alternadamente como cliente, buscando conteúdo, e como servidor, fornecendo conteúdo para outros peers. O grande atrativo das redes P2P é a ausência de uma infraestrutura centralizada, permitindo que qualquer pessoa contribua para a distribuição de conteúdo.
 
-![Figura 1 - Arquitetura do modelo P2P](https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/funcionamento.png)
+![Figura 1: Arquitetura do modelo P2P](https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/funcionamento.png)
 
+<p align="center">
+  <em>Figura 1: Arquitetura do modelo P2P</em>
+</p>
 O protocolo P2P mais proeminente hoje é o BitTorrent, amplamente utilizado para compartilhar vídeos licenciados e de domínio público, além de outros conteúdos volumosos. Ao contrário das CDNs, que exigem uma grande empresa para operação, as redes P2P capacitam qualquer indivíduo com um computador a participar ativamente na distribuição de conteúdo, proporcionando uma notável capacidade de competir com os maiores sites da web. Esse aspecto descentralizado e democratizado das redes P2P é o que as torna atrativas, permitindo que até mesmo indivíduos e pequenas comunidades exerçam influência significativa na distribuição de conteúdo online.
 
 # 2.2 Sockets UDP:
@@ -69,6 +72,12 @@ O relógio de Lamport se aplica em ambientes distribuídos permitindo que cada e
 A criptografia, derivada das palavras gregas para "escrita secreta", possui uma longa história de milhares de anos, desempenhando um papel crucial em contextos militares, diplomáticos, memorativos e românticos. Antes dos computadores, as limitações incluíam a habilidade dos criptografistas em realizar transformações, frequentemente em ambientes desafiadores, como em guerras, por exemplo, tornando necessária a alteração de métodos criptográficos rapidamente, em resposta às ameaças, resultando em grande desafios.
 
 Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o modelo tradicional envolve a transformação de texto simples para texto cifrado através de uma função parametrizada pela chave. O texto cifrado é transmitido, mesmo que o intruso o escute, sem poder decifrá-lo devido à ausência da chave, porém para esse trabalho foi utilizado o modelo de chave pública, o qual foi uma inovação crucial no mundo criptográfico, no qual existem duas chaves diferentes: uma chave pública utilizada para criptografar e uma chave privada para descriptografar, permitindo comunicações seguras sem a necessidade de compartilhar a chave privada.
+
+![Figura 2: Modelo de chave pública](https://www.universidadejava.com.br/images/2020-05-23-criptografia-assimetrica-01.png)
+
+<p align="center">
+  <em>Figura 2: Modelo de chave pública</em>
+</p>
 
 # 2.5 Confiabilidade
 
