@@ -19,6 +19,7 @@ As redes P2P surgiram em 1999, inicialmente associadas a controvérsias, como o 
 ![Figura 1: Arquitetura do modelo P2P](https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/funcionamento.png)
 
 <p align="center">
+  <em>https://www.gta.ufrj.br/ensino/eel878/redes1-2016-1/16_1/p2p/images/funcionamento.png</em><br>
   <em>Figura 1: Arquitetura do modelo P2P</em>
 </p>
 O protocolo P2P mais proeminente hoje é o BitTorrent, amplamente utilizado para compartilhar vídeos licenciados e de domínio público, além de outros conteúdos volumosos. Ao contrário das CDNs, que exigem uma grande empresa para operação, as redes P2P capacitam qualquer indivíduo com um computador a participar ativamente na distribuição de conteúdo, proporcionando uma notável capacidade de competir com os maiores sites da web. Esse aspecto descentralizado e democratizado das redes P2P é o que as torna atrativas, permitindo que até mesmo indivíduos e pequenas comunidades exerçam influência significativa na distribuição de conteúdo online.
@@ -76,6 +77,7 @@ Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o mod
 ![Figura 2: Modelo de chave pública](https://www.universidadejava.com.br/images/2020-05-23-criptografia-assimetrica-01.png)
 
 <p align="center">
+  <em>https://www.universidadejava.com.br/images/2020-05-23-criptografia-assimetrica-01.png</em><br>
   <em>Figura 2: Modelo de chave pública</em>
 </p>
 
@@ -86,3 +88,12 @@ O ambiente da Internet é propenso a falhas, tanto em termos de mensagens quanto
 A implementação de estratégias robustas para realizar o tratamento de falhas, manter a consistência dos dados e garantir a recuperação eficiente do sistema em face de perturbações é papel da confiabilidade em sistemas distribuídos P2P.
 
 # 3. Resultados e Discussões
+
+O desenvolvimento do software de troca de mensagens baseado no modelo peer-to-peer (P2P) com a utilização do socket UDP e tendo a preocupação para o tratamento de falhas na comunicação resultou em êxito na solução inovadora. O ambiente descentralizado promoveu a aplicação uma resolução eficiente as metas e desafios específicos, com diversas vantagens relacionadas ao contexto a que se encontra.
+
+Tendo em foco o desempenho do sistema utilizou-se o socket UDP, o tipo de conexão que o UDP oferece é totalmente voltada para o âmbito do envio/recebimento de mensagens instantânes, pois a rapidez é um ponto primordial para a troca de dados nesse contexto. No quesito segurança da comunicação, a não utilização de um ponto fixo de consetração de dados em um servidor central é positivo, uma vez que não há um nó único de falha, também a garamtia da confidencialidade das mensagens devido a utilização de chaves criptográficas, faz com que se tenha uma camada a mais de segurança.
+
+A confiabilidade do sistema é contribuída na capacidade que ele tem de gerenciar falhas, no qual mensagens e processos podem apresentar erros, a função de garantia de que as mensagens não visualizadas durante períodos de desconexão serão exibidas quando o usuário se reconectar aumenta a usabilidade. Outro ponto importante é a garantia de que a ordem das mensagens serão mantidas sem depender da sincronia com relógios físicos, ao se eviatr o uso de servidores temporais, o sistema descarta pontos de falha centralizados, se tornando de fundamental importância a abordagem de ordenação sem utilização de data local dos computadores. A solução P2P para mensagens instantâneas atende a prioridade de segurança e comunicação eficiente, resultando na descentralização e na garantia de confiabilidade sem depender de infraestruturas centralizadas oferecendo flexibilidade e adaptatibilidade.
+
+# 4. Conclusão
+
