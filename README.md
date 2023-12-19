@@ -81,7 +81,11 @@ Os modelos criptográficos evoluiram bastante ao longo da sua tragetória, o mod
   <em>Figura 2: Modelo de chave pública</em>
 </p>
 
-# 2.5 Confiabilidade
+# 2.5 Base64
+
+Base64 é um esquema de codificação que representa dados binários de forma textual. Ele converte sequências de bytes (dados binários) em uma sequência de caracteres ASCII. O termo "64" indica que cada bloco de dados de 8 bits é representado usando 64 caracteres diferentes, geralmente escolhidos de um conjunto predefinido de caracteres ASCII. É frequentemente utilizado para codificar dados binários, como imagens, arquivos anexos de e-mails, ou qualquer tipo de dado binário que precise ser transmitido através de protocolos de texto, como HTTP, XML, ou em campos de dados de formulários HTML.
+
+# 2.6 Confiabilidade
 
 O ambiente da Internet é propenso a falhas, tanto em termos de mensagens quanto de processos, adotar uma abordagem que leve em consideração o modelo de falhas na comunicação é crucial para garantir a confiabilidade do sistema, mesmo em situações adversas em que um dos nós, ou seja, peers apresentem falhas ou estejam indisponíveis. 
 
