@@ -99,6 +99,6 @@ A confiabilidade do sistema é contribuída na capacidade que ele tem de gerenci
 
 O desenvolvimento bem-sucedido desse sistema de mensagens, o ZapZaps, representa um avanço significativo no campo da comunicação empresarial. Os resultados obtidos destacam a eficácia e eficiência da abordagem P2P em oferecer uma solução segura e confiável para a troca de mensagens em grupos de usuários. Este modelo pode servir como base para futuras inovações e melhorias na comunicação de empresas em qualquer área. À medida que a tecnologia continua a avançar, é provável que esse sistema se torne ainda mais sofisticado e eficiente, o sistema exemplifica como a integração de tecnologias modernas e a adoção de protocolos de comunicação podem transformar a forma como as pessoas se comunicam, tornando a experiência de troca de mensagens conveniente e eficaz, com isso melhorias devem ser feitas em futuras versões, principalmente na questão da confiabilidade, tendo como foco mensagens perdidas na rede.
 
-#5. Referência:
+# 5. Referência:
 - TANENBAUM, Andrew S. Redes de Computadores. Pearson, 2014.
 - SISTEMAS DISTRIBUÍDOS. CAPÍTULO 6 – SINCRONIZAÇÃO. Slides cedidos pela professora Aline Nascimento e Slides de COS 418: Distributed Systems. http://profs.ic.uff.br/~simone/sd/contaulas/aula12.pdf. Acessado em: 16 de Dezembro de 2023.
